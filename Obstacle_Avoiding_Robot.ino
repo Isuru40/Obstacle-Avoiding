@@ -33,7 +33,7 @@ void loop() {
 
   if (distance < 20) {
     digitalWrite(LEDpin, HIGH);
-    //Serial.print("Object Detected.  |  ");
+    Serial.print("Object Detected.  |  ");
     //Serial.print(distance);
     //Serial.println(" cm. We should Turn.");
     halt(100);
