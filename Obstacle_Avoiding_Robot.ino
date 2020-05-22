@@ -5,7 +5,7 @@ int L1 = 6, L2 = 7, L3 = 8, L4 = 9, tcrt = 0; // Pins connected to Motor driver 
 long duration, distance;
 
 void setup() {
-  pinMode(A4, INPUT);
+ // pinMode(A4, INPUT);
   pinMode(L1, OUTPUT);
   pinMode(L2, OUTPUT);
   pinMode(L3, OUTPUT);
